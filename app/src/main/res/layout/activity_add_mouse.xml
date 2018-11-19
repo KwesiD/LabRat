@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/parentDescription"
+            android:text="Parent Description (ie: TRE*TTA)"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/parentDescription"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/paired"
+
+            android:text="Paired Date"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/paired"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:longClickable="false"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/mouseDob"
+            android:text="DOB"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/mouseDob"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="false"
+            android:longClickable="false" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/mouseColor"
+            android:text="Color"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/mouseColor"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Mouse"
+            android:id="@+id/addMouseButton"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

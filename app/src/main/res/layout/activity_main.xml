@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Righting Reflex"
+                android:id="@+id/toRighting"
+                android:background="#e46983"
+                android:padding="@dimen/menu_card_padding"
+                android:textSize="@dimen/menu_card_text_size"
+                android:layout_marginTop="@dimen/menu_card_margin_top"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Whiskers"
+                android:id="@+id/toWhiskers"
+                android:background="#eda3c8"
+                android:padding="@dimen/menu_card_padding"
+                android:textSize="@dimen/menu_card_text_size"
+                android:layout_marginTop="@dimen/menu_card_margin_top"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Negative Geotaxis"
+                android:id="@+id/toGeotaxis"
+                android:background="#99d9e8"
+                android:padding="@dimen/menu_card_padding"
+                android:textSize="@dimen/menu_card_text_size"
+                android:layout_marginTop="@dimen/menu_card_margin_top"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cliff Avoidance"
+                android:id="@+id/toCliff"
+                android:background="#aed8a4"
+                android:padding="@dimen/menu_card_padding"
+                android:textSize="@dimen/menu_card_text_size"
+                android:layout_marginTop="@dimen/menu_card_margin_top"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Mouse"
+                android:id="@+id/toAddMouse"
+                android:background="#8c69ad"
+                android:padding="@dimen/menu_card_padding"
+                android:textSize="@dimen/menu_card_text_size"
+                android:layout_marginTop="@dimen/menu_card_margin_top"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
